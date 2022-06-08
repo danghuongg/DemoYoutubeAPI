@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_0.25x"
+        android:title="@string/_0_25x" />
+    <item
+        android:id="@+id/menu_0.5x"
+        android:title="@string/_0_5x" />
+    <item
+        android:id="@+id/menu_1x"
+        android:title="@string/_1_0x" />
+    <item
+        android:id="@+id/menu_1.5x"
+        android:title="@string/_1_5x" />
+    <item
+        android:id="@+id/menu_2x"
+        android:title="@string/_2_0x" />
+</menu>

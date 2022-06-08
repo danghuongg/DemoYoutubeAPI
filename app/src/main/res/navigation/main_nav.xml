@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@+id/frag_main">
+
+    <fragment android:id="@+id/frag_play_or_pause"
+        android:name="com.danghuong.demoyoutubeapi.ui.fragment.playorpause.FragPlayVideo"
+        android:label="fra_play_or_pause"
+        tools:layout="@layout/frag_play_video"/>
+
+    <fragment android:id="@+id/frag_main"
+        android:name="com.danghuong.demoyoutubeapi.ui.fragment.fragmain.FragMain"
+        android:label="frag_main"
+        tools:layout="@layout/fragmain"/>
+
+    <fragment android:id="@+id/frag_comment"
+        android:name="com.danghuong.demoyoutubeapi.ui.fragment.comment.Comment"
+        android:label="frag_comment"
+        tools:layout="@layout/dialog_comment"/>
+</navigation>

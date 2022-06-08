@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable-v23/custom_remove_history.xml" value="0.2075" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable-v23/icon_home.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable-xxhdpi/vietnam_flag.xml" value="0.2145" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable-xxxhdpi/images.xml" value="0.2145" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/custom_dialog_setting.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/custom_remove_history.xml" value="0.2075" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline__more_24.xml" value="0.224" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2075" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.2075" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.224" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_mic_none_24.xml" value="0.2075" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_mood_24.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_play_24.xml" value="0.2545" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_skip_next_24.xml" value="0.213" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_skip_previous_24.xml" value="0.2575" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_speed_24.xml" value="0.2545" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_baseline_trending_up_24.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_notification.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_play_backgroud.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_policy.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/ic_search_youtube.xml" value="0.2085" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/icon_home.xml" value="0.205" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/drawable/icon_play.xml" value="0.2545" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout-v23/frag_play_video.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/activity_splash.xml" value="0.33645833333333336" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/dialog_comment.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/dialog_sample.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_account.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_comment.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_home.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_home_rc.xml" value="0.3312820512820513" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_other_videos.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_other_videos_rc.xml" value="0.34036144578313254" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_play_video.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_search_rc.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_trending.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/frag_trending_rc.xml" value="0.3312820512820513" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/fragmain.xml" value="0.2890625" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_comment.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_home.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_ohters_video.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_other.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_others_video.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_search.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_trending.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_video_figure_out.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_video_history.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/item_video_search.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/playtop.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/layout/splash_activity.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/menu/home_bottom_navigation.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/menu/popup_menu.xml" value="0.35052083333333334" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1965" />
+        <entry key="..\:/DemoYoutubeAPI/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1965" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DemoYoutubeAPI</string>
+    <string name="home">Home</string>
+    <string name="trending">Trending</string>
+    <string name="search">Search</string>
+    <string name="iyoutubeapi">iYoutubeAPI</string>
+    <string name="not_finding">Not Finding</string>
+    <string name="title">Title</string>
+    <string name="view_count_k">K views</string>
+    <string name="view_count">views</string>
+    <string name="view_count_m">"M views "</string>
+    <string name="view_count_b">"B view "</string>
+    <string name="speed">Speed</string>
+    <string name="play">Play</string>
+    <string name="_0_25x">0.25x</string>
+    <string name="_0_5x">0.5x</string>
+    <string name="_1_0x">1.0x</string>
+    <string name="_1_5x">1.5x</string>
+    <string name="_2_0x">2.0x</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="enter_picture_in_picture">Enter picture in picture</string>
+    <string name="comment">Comment</string>
+    <string name="c_c_video_kh_c">Các video khác</string>
+    <string name="comments">Comments</string>
+    <string name="the_other_videos">The other videos</string>
+    <string name="download">download</string>
+    <string name="share">share</string>
+    <string name="no_comment">No Comment</string>
+    <string name="history">History</string>
+    <string name="connected_to_internet">Connected to Internet</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="language">Language</string>
+    <string name="viet_nam">Viet Nam</string>
+    <string name="english">English</string>
+    <string name="account">Account</string>
+</resources>

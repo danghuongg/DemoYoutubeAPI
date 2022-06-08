@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoYoutubeAPI</string>
+    <string name="home">Trang chủ</string>
+    <string name="trending">Thịnh hành</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="iyoutubeapi">iYoutubeAPI</string>
+    <string name="not_finding">Youtube đang hạn chế Key, Vui lòng quay lại sau 2 tiếng tới</string>
+    <string name="title">Tiêu đề</string>
+    <string name="view_count_k">Nghìn lượt xem</string>
+    <string name="view_count">Lượt xem</string>
+    <string name="view_count_m">Triệu lượt xem</string>
+    <string name="view_count_b">Tỷ lượt xem</string>
+    <string name="speed">Tốc độ</string>
+    <string name="play">Chơi</string>
+    <string name="_0_25x">0.25x</string>
+    <string name="_0_5x">0.5x</string>
+    <string name="_1_0x">1.0x</string>
+    <string name="_1_5x">1.5x</string>
+    <string name="_2_0x">2.0x</string>
+    <string name="previous">Trước đó</string>
+    <string name="next">Tiếp theo</string>
+    <string name="enter_picture_in_picture">Enter picture in picture</string>
+    <string name="comment">Bình luận</string>
+    <string name="c_c_video_kh_c">Các video khác</string>
+    <string name="comments">Các bình luận</string>
+    <string name="the_other_videos">Các video khác</string>
+    <string name="download">Tải xuống</string>
+    <string name="share">Chia sẻ</string>
+    <string name="no_comment">Không có comment</string>
+    <string name="history">Lịch sử</string>
+    <string name="connected_to_internet">Kết nối Internet</string>
+    <string name="disconnected">Mất kết nối</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="viet_nam">Việt Nam</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="account">Tài khoản</string>
+</resources>

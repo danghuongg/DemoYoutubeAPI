@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scV_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/youtube"
+            tools:ignore="ScrollViewCount">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/body_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_title_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_viewcount_and_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_title_video"
+                    app:layout_constraintTop_toBottomOf="@id/tv_title_video" />
+
+                <TextView
+                    android:id="@+id/tv_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="like"
+                    app:drawableTint="@color/black"
+                    app:drawableTopCompat="@drawable/ic_baseline_like_24"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/tv_unlike"
+                    app:layout_constraintTop_toBottomOf="@id/tv_viewcount_and_date" />
+
+                <TextView
+                    android:id="@+id/tv_unlike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="unlike"
+                    app:drawableTint="@color/black"
+                    app:drawableTopCompat="@drawable/ic_baseline_unlike_24"
+                    app:layout_constraintLeft_toRightOf="@id/tv_like"
+                    app:layout_constraintRight_toLeftOf="@id/tv_download"
+                    app:layout_constraintTop_toBottomOf="@id/tv_viewcount_and_date" />
+
+                <TextView
+                    android:id="@+id/tv_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/download"
+                    app:drawableTint="@color/black"
+                    app:drawableTopCompat="@drawable/ic_baseline_download_24"
+                    app:layout_constraintLeft_toRightOf="@id/tv_unlike"
+                    app:layout_constraintRight_toLeftOf="@id/tv_share"
+                    app:layout_constraintTop_toBottomOf="@id/tv_viewcount_and_date" />
+
+
+                <TextView
+                    android:id="@+id/tv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/share"
+                    app:drawableTint="@color/black"
+                    app:drawableTopCompat="@drawable/ic_baseline_share_24"
+                    app:layout_constraintLeft_toRightOf="@id/tv_download"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_viewcount_and_date" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#D6D3D3"
+                    app:layout_constraintTop_toBottomOf="@id/tv_like" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_channel_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_title_video"
+                    app:layout_constraintTop_toBottomOf="@id/view1">
+
+                    <ImageView
+                        android:id="@+id/iv_channel_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/images" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tv_channel_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="channel_name"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toTopOf="@id/tv_sub"
+                    app:layout_constraintLeft_toRightOf="@id/cv_channel_image"
+                    app:layout_constraintTop_toTopOf="@id/cv_channel_image" />
+
+                <TextView
+                    android:id="@+id/tv_sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sub"
+                    app:layout_constraintBottom_toBottomOf="@id/cv_channel_image"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_channel_name"
+                    app:layout_constraintTop_toBottomOf="@id/tv_channel_name" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#D6D3D3"
+                    app:layout_constraintTop_toBottomOf="@id/cv_channel_image" />
+
+                <TextView
+                    android:id="@+id/tv_comment_number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/comment"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@id/cv_channel_image"
+                    app:layout_constraintTop_toTopOf="@id/view2" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_channel_image_comment"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_comment_number1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_comment_number1">
+
+                    <ImageView
+                        android:id="@+id/iv_channel_image_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tv_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@id/cv_channel_image_comment"
+                    app:layout_constraintLeft_toRightOf="@id/cv_channel_image_comment"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/cv_channel_image_comment" />
+
+                <ImageView
+                    android:id="@+id/iv_more_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="7dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline__more_24"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view2" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#D6D3D3"
+                    app:layout_constraintTop_toBottomOf="@id/cv_channel_image_comment" />
+
+                <TextView
+                    android:id="@+id/tv_others_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/the_other_videos"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    app:layout_constraintLeft_toLeftOf="@id/view3"
+                    app:layout_constraintTop_toBottomOf="@id/view3" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rc_others_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_others_video"
+                    app:layout_constraintVertical_bias="1.0"
+                    tools:layout_editor_absoluteX="-14dp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/body_comment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/youtube">
+
+            <TextView
+                android:id="@+id/tv_no_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_comment"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+               />
+
+
+            <TextView
+                android:id="@+id/tv_comment_number2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/comments"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_bar"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/iv_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_horizontal_rule_24"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#DFD6D6" />
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_close_24"
+                app:layout_constraintBottom_toBottomOf="@id/tv_comment_number2"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_comment_number2" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc_comment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_comment_number2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--        <ImageView-->
+        <!--            android:id="@+id/iv_previous"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:visibility="invisible"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@id/youtube"-->
+        <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--            app:layout_constraintRight_toLeftOf="@id/iv_next"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/youtube"-->
+        <!--            android:src="@drawable/ic_baseline_skip_previous_24" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/iv_next"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:visibility="invisible"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@id/youtube"-->
+        <!--            android:src="@drawable/ic_baseline_skip_next_24"-->
+        <!--            app:layout_constraintLeft_toRightOf="@id/iv_previous"-->
+        <!--            app:layout_constraintRight_toRightOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/youtube" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
